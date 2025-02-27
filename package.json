@@ -1,0 +1,16 @@
+{
+  "name": "cortex-agent-framework",
+  "version": "0.1.0",
+  "description": "A modular AI agent framework with perception-cognition-action architecture",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node examples/basic-agent.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
